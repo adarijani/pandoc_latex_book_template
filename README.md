@@ -53,7 +53,7 @@ Edit the *metadata.yml* file to set configuration data (note that it must start 
 ---
 title: My book title
 author: Ali Darijani
-rights: GPLv3 
+rights: GPLv2 
 language: en-EN
 tags: [book, my-book, etc]
 abstract: |
