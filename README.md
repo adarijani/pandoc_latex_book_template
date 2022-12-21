@@ -11,24 +11,24 @@ Pandoc is a suite of tools to compile markdown files into readable files (PDF, E
 
 ### Installing
 
-Please, check [this page](http://pandoc.org/installing.html) for more information. On ubuntu, it
+Please, check [this page](http://pandoc.org/installing.html) for more information. On macOS, it
 can be installed as the *pandoc* package:
 
 ```sh
-sudo apt-get install pandoc
+brew install pandoc
 ```
 
 This template uses [make](https://www.gnu.org/software/make/) to build the output files, so don't
-forget to install it too:
+forget to install it too and on macOS:
 
 ```sh
-sudo apt-get install make
+brew install make
 ```
 
-To export to PDF files, make sure to install the following packages:
+To export to PDF files, make sure to install the mactex on macOS:
 
 ```sh
-sudo apt-get install texlive-fonts-recommended texlive-xetex
+brew install mactex
 ```
 
 ### Folder structure
@@ -52,9 +52,9 @@ Edit the *metadata.yml* file to set configuration data (note that it must start 
 ```yml
 ---
 title: My book title
-author: Alessandro Cucci
-rights:  MIT License
-language: it-IT
+author: Ali Darijani
+rights: GPLv3 
+language: en-EN
 tags: [book, my-book, etc]
 abstract: |
   Your summary text.
