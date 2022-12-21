@@ -1,6 +1,6 @@
 # Pandoc book template
 
-[![License](https://en.wikipedia.org/wiki/GNU_General_Public_License#/media/File:GPLv3_Logo.svg)
+![License](https://en.wikipedia.org/wiki/GNU_General_Public_License#/media/File:GPLv3_Logo.svg)
 
 ## Description
 
