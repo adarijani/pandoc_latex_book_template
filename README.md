@@ -1,6 +1,6 @@
 # Pandoc book template
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/wikiti/pandoc-book-template/blob/master/LICENSE.md)
+[![License](https://en.wikipedia.org/wiki/GNU_General_Public_License#/media/File:GPLv3_Logo.svg)](https://github.com/wikiti/pandoc-book-template/blob/master/LICENSE.md)
 
 ## Description
 
@@ -288,11 +288,3 @@ custom styles, etc.
 - [Pandoc Manual](http://pandoc.org/MANUAL.html)
 - [Wikipedia: Markdown](http://wikipedia.org/wiki/Markdown)
 
-## Contributors
-
-This project has been developed by:
-
-| Avatar | Name | Nickname | Email |
-| ------ | ---- | -------- | ----- |
-| ![](http://www.gravatar.com/avatar/2ae6d81e0605177ba9e17b19f54e6b6c.jpg?s=64)  | Daniel Herzog | Wikiti | [info@danielherzog.es](mailto:info@danielherzog.es)
-|   | Alessandro Cucci | alessandrocucci | [alessandro.cucci@gmail.com](mailto:alessandro.cucci@gmail.com)
