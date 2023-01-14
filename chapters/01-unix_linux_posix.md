@@ -1,4 +1,35 @@
-# Unix, Lmnux, POSIX, and Beyond
+# Unix, Linux, POSIX, and Beyond
+
+Nowadays an applied mathematicians must utilize a computer in order to handle their workflow.
+Computers must have an operating system(OS) and that is set in the stone. As to what OS
+is optimal, there are no clear answers obviously. Every OS has its pros and cons. I adopted
+the Unix-like(Unix, Linux, POSIX) OSs for now as I meticulously observed my mentors during my college years and still continue 
+to do so. This chapter tries to help you determine whether you 
+would benefit from those OSs too and if yes formulate a guideline for its learning process.
+
+## Unix or not to Unix!
+For now Unix is only a name and not a verb therefore making the heading a failed attempt at making a
+witty remark. I however, hope that it someday makes its way to the standard dictionaries 
+as a verb like grep or google. During my BSc, MSc, PhD years I observed my mentors and tried to 
+have the same hardware, OS and softwares as a ay of minimizing the initial overhead of having a working 
+workflow for my computing. 
+
+### BSc Years
+I would say that in my BSc years there were only a handful of people that used Unix-like systems.
+My trust in them however were so solid that I decided to follow their footsteps instead of the more
+popular windows pathway. Here is a list and a short description of the nature of their computing works:
+
+- Mir Abbas Jalali: Mechanical engineer professor but an applied mathematician at heart mostly
+    doing complex physics simulation. Needed fast, high-performance low-level code(C, Fortran) to perform
+    his computer experiments. Joined the CUDA party really fast back in 2010. Had an Apple, MacBook Pro with
+    Darwin on top as the OS. Was willing to do cluster computing and parallelization if deemed worthy 
+    monstrous computations done.
+- Saeed Rezaei: 
+
+### MSc Years
+
+agaerg
+
 #### General/Offline/Classic Style
 * LPI Linux Essentials [pdf](https://learning.lpi.org/pdfstore/LPI-Learning-Material-010-160-en.pdf)  
 * LPI Web Development Essentials [pdf](https://learning.lpi.org/pdfstore/LPI-Learning-Material-030-100-en.pdf)  
