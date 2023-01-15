@@ -5,7 +5,7 @@ rights: GNU General Public License, version 2
 language: en-EN
 tags: [book, this will be my reincarnation]
 abstract: |
-  
 mainfont: Times New Roman
+linkcolor: blue
 fontsize: 10pt
 ---
