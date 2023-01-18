@@ -279,7 +279,7 @@ The generated file(s) will be placed in *build/html*.
 #### Extra configuration
 
 If you want to configure the output, you'll probably have to look the
-[Pandoc Manual](http://pandoc.org/MANUAL.html) for further information about pdf (LaTeX) generation,
+[Pandoc Manual](http://pandoc.org/MANUAL.html) for further information about pdf (\TeX ,\LaTeX) generation,
 custom styles, etc.
 
 ## References
