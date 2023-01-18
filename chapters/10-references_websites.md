@@ -1,7 +1,4 @@
-# References(Websites)
-
-Internet is vast. There are the websites that I visit regularly. I hope you can benefit from them too. 
-
+# References(Websites) 
 ## Unix, Linux, POSIX
 
 - [https://www.lpi.org/](https://www.lpi.org/)
