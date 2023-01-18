@@ -26,13 +26,13 @@ popular windows pathway. Here is a list and a short description of the nature of
     his computer experiments. Joined the CUDA party really fast back in 2010. Had an Apple, MacBook Pro with
     Darwin on top as the OS. Was willing to do cluster computing and parallelization if deemed worthy 
     monstrous computations done.
-    - Saeed Rezaei: A linguist professor that needed a lightweight with a 
+- Saeed Rezaei: A linguist professor that needed a lightweight with a 
   lasting battery daily driver to be able always on the move. Being able to edit 
   essays in different file formats like Markdown, \TeX . He wanted to stuff to work out of the box.     
 
 ### MSc Years
 
-- Benjamin Berkels: double commander...jupyter notebook...math vs low level code...SSH...seminar...recording lecture videos...  
+- Benjamin Berkels: double commander...jupyter notebook...math vs low level code...SSH...seminar...recording lecture videos.. 
 - Paolo Bientinesi: low level programmerr...architecture aware software...SSH only...reallly realllyy big computing on monsterous machines...
 - Goerg May: mathematician...lectures...integrity of the ipad macos...SSH code...
 
