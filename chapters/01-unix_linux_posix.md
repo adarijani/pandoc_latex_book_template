@@ -44,11 +44,15 @@ add stuffff
 
 So look around and see if you make the same choice as I did...
 
-## If not to Unix!
+### If not to Unix!
 
 It might happen depending on the nature of your computing...then you can skippp the rest of the chapter and carry one with the rest of the book...
 
-#### General/Offline/Classic Style
+### If Unix
+
+Relax, Read, and Review
+
+### General/Offline/Classic Style
 
 - LPI Linux Essentials [pdf](https://learning.lpi.org/pdfstore/LPI-Learning-Material-010-160-en.pdf)
 - LPI Web Development Essentials [pdf](https://learning.lpi.org/pdfstore/LPI-Learning-Material-030-100-en.pdf)
@@ -57,11 +61,11 @@ It might happen depending on the nature of your computing...then you can skippp 
 - The LPIC2 Exam Prep [pdf](https://lpic2book.github.io/src/pdf/lpic2book.pdf)
 - Practical LPIC-3 300 [Link](https://link.springer.com/book/10.1007/978-1-4842-4473-9)
 
-#### Details/Online/Wiki Style
+### Details/Online/Wiki Style
 
 - Arch Wiki [Link](https://wiki.archlinux.org/)
 
-#### Important Books/Pdfs/Links
+### Important Books/Pdfs/Links
 
 - USB flash installation medium [Link](https://wiki.archlinux.org/title/USB_flash_installation_medium)
 - SSH Key Generation [Link](https://wiki.archlinux.org/title/SSH_keys)
@@ -69,7 +73,7 @@ It might happen depending on the nature of your computing...then you can skippp 
 - Filesystem Hierarchy Standard [pdf](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
 - DistroWatch [Link](https://distrowatch.com/)
 
-#### Historical/Cultural References
+### Historical/Cultural References
 
 - Unix: A History and a Memoir by Brian Kernighan [Link](https://www.cs.princeton.edu/~bwk/memoir.html)
 - Just for Fun by Linus Torvalds [Link](https://www.harpercollins.com/products/just-for-fun-linus-torvaldsdavid-diamond)
@@ -77,7 +81,7 @@ It might happen depending on the nature of your computing...then you can skippp 
 - Open Sources by Legends of Open Source [pdf](https://smaldone.com.ar/documentos/libros/opensources.pdf)
 - Open Sources 2.0 by Legends of Open Source [Link](https://www.oreilly.com/library/view/open-sources-20/0596008023/)
 
-#### My Horsemen of the Apocalypse
+### My Horsemen of the Apocalypse
 
 - Hardware: [Apple](https://www.apple.com/mac/)
 - An Online Linux Terminal Emulator: [JSLinux](https://bellard.org/jslinux/)
@@ -90,5 +94,4 @@ It might happen depending on the nature of your computing...then you can skippp 
 - Terminal Text Editor: [vim](https://www.vim.org/) GUI Text Editor: [Visual Studio Code](https://code.visualstudio.com/)
 - Terminal Multiplexer: [tmux](https://github.com/tmux)
 - Modern Linux Tools: [Modern Linux](https://github.com/ibraheemdev/modern-unix)
-
 
