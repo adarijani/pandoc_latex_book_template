@@ -2,7 +2,7 @@
 
 Internet is vast. There are the websites that I visit regularly. I hope you can benefit from them too. 
 
-## Knowledge
+## Unix, Linux, POSIX
 
 - [https://www.google.com/](https://www.google.com/)
 - [https://www.wikipedia.org/](https://www.wikipedia.org/)
@@ -14,6 +14,7 @@ Internet is vast. There are the websites that I visit regularly. I hope you can 
 - [https://github.com/](https://github.com/)
 - [https://about.gitlab.com/](https://about.gitlab.com/)
 
+### Daten
 
 - [https://www.lpi.org/](https://www.lpi.org/)
 - [https://learning.lpi.org/en/learning-materials/learning-materials/](https://learning.lpi.org/en/learning-materials/learning-materials/)
