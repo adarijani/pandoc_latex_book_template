@@ -52,6 +52,7 @@ It might happen depending on the nature of your computing...then you can skippp 
 
 Relax, Read, and Review
 
+## References
 ### General/Offline/Classic Style
 
 - LPI Linux Essentials [pdf](https://learning.lpi.org/pdfstore/LPI-Learning-Material-010-160-en.pdf)
