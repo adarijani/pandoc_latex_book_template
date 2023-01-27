@@ -4,14 +4,38 @@
 
 ### Exercises
 
-1. test
-   1. aten
-   2. forteil
-   3. ajhtish
-2. lsaNF
-   1. DSFG
-   2. DFG
-   3. DSFG
-   4. 
+1. NOT DONE
+   1. NOT DONE
+   2. NOT DONE
+   3. NOT DONE
+   4. NOT DONE
+   5. NOT DONE
+2. NOT DONE
+   1. NOT DONE
+   2. NOT DONE
+   3. NOT DONE
+3. NOT DONE
+   1. NOT DONE
+   2. NOT DONE
+   3. NOT DONE
+4. NOT DONE
+   1. NOT DONE
+   2. NOT DONE
+   3. NOT DONE
+   4. NOT DONE
+   5. NOT DONE
+   6. NOT DONE
+   7. NOT DONE
+   8. NOT DONE
+   9. NOT DONE
+5.  NOT DONE
+6.  NOT DONE
+7.  NOT DONE
+8.  NOT DONE
+9.  NOT DONE
+10. NOT DONE
+11. NOT DONE
 
 ### Problems
+
+1. NOT DONE
