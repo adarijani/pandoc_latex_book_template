@@ -1,7 +1,7 @@
 #!/bin/bash
-#make clean
-#make 
+make clean
+make 
 git add .
 git commit -a -m "commit" 
 git push
-#open ./build/pdf/book.pdf
+open ./build/pdf/book.pdf

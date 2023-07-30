@@ -1,0 +1,411 @@
+%-----------------------------------------------------------------------
+% Beginning of chapter_01.tex
+%-----------------------------------------------------------------------
+%
+%  AMS-LaTeX sample file for a chapter of a monograph, to be used with
+%  an AMS monograph document class.  This is a data file input by
+%  chapter.tex.
+%
+%  Use this file as a model for a chapter; DO NOT START BY removing its
+%  contents and filling in your own text.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \part{This is a Part Title Sample}
+
+\chapter{The Real and Complex Number Systems}\label{ch:real_complex_numbers}
+
+\section*{Introduction}
+A satisfactory discussion of the main concepts of analysis (such as convergence, continuity, differentiation, and integration) 
+must be based on an accurately defined number concept. We shall not, however, enter into any discussion of the axioms that govern 
+the arithmetic of the integers, but assume familiarity with the rational numbers (i.e., the numbers of the form 
+$m/n$, where $m$ and $n$ are integers and $n \neq 0$).
+
+\indent The rational number system is inadequate for many purposes, both as a field and as an ordered set. (These terms will be 
+defined in Secs. \ref{some section} and \ref{some section}.) For instance, there is no rational $p$ such that $p^2 = 2$. (We shall prove this presently.) 
+This leads to the introduction of so-called ``irrational numbers'' which are often written as infinite decimal expansions and are 
+considered to be ``approximated'' by the corresponding finite decimals. Thus the sequence 
+
+\begin{equation*}
+1, 1.4, 1.41, 1.414, 1.4142,\cdots
+\end{equation*}
+
+``tends to $\sqrt{2}$.'' But unless the irrational number $\sqrt{2}$ has been clearly defined, the question must arise: Just what 
+is it that this sequence ``tends to''?
+
+\indent This sort of question can be answered as soon as the so-called ``real number system''
+is constructed.
+
+\begin{example}
+  We now show that the equation
+  \begin{equation}\label{eq:p^2=2}
+    p^2 = 2
+  \end{equation}
+  is not satisfied by any rational $p$. If there were such a $p$, we could write $p=m/n$ where $m$ and $n$ are integers 
+  that are not both even. Let us assume this is done. Then \ref{eq:p^2=2} implies
+  \begin{equation}\label{eq:m^2-2n^2}
+    m^2 =2n^2
+  \end{equation}
+  this shows that $m^2$ is even. Hence $m$ is even (if $m$ were odd, $m^2$ would be odd), and so $m^2$ is divisible by $4$. 
+  It follows that the right side of \ref{eq:m^2-2n^2} is divisible by $4$. so that $n^2$ is even, which implies that $n$ is even.\\
+  \indent The assumptions that \ref{eq:p^2=2} holds thus leads to the contradiction that both $m$ and $n$ are even, contrary to our 
+  choice of $m$ and $n$. Hence \ref{eq:p^2=2} is impossible for rational $p$.
+
+
+
+
+
+  \indent If $p$ is in $A$ then $p^2-2<0$, \ref{3} shows that $q>p$, and \ref{4} shows that $q^2<2$. Thus $q$ is in $A$.\\
+  \indent If $p$ is in $B$ then $p^2-2>0$, \ref{3} shows that $0<q<p$, and \ref{4} shows that $q^2>2$. Thus $q$ is in $B$.
+\end{example}
+
+\begin{remark}
+  The purpose of the above discussion has been to show that the rational number system has certain gaps, in spite of the 
+  fact that between any two rationals there is another: If $r<s$ then $r<\frac{(r+s)}{2}<s$. The real number system fills these 
+  gaps. This is the principal reason for the fundamental role which it plays in analysis.\\
+  \indent In order to elucidate its structure, as well as that of the complex numbers, we start with a brief discussion of the 
+  general concepts of \emph{ordered set} and \emph{field}. Here is some of the standard set-theoretic terminology that will be 
+  used throughout this book.
+\end{remark}
+
+
+\begin{definition}
+  If $A$ is any set (whose elements may be numbers or any other objects), we write $x \in A$ to indicate that x is a member 
+  (or an element) of $A$.\newline
+   If $x$ is not a member of $A$, we write: $x \notin A$.\\
+  \indent The set which contains no element will be called the \emph{empty set}. If a set has at least one element, it is called 
+  \emph{nonempty}.\\
+
+\end{definition}
+
+
+
+
+
+
+
+
+
+\begin{definition}
+  Throughout Chap. \ref{ch:real_complex_numbers}, the set of all rational numbers will be denoted by $\mathbb{Q}$.
+\end{definition}
+
+
+
+
+
+\section{Ordered Sets}
+
+\begin{definition}
+  Let $S$ be a set. An \emph{order} on $S$ is a relation, denoted by $<$, with the following two properties:
+  \begin{enumerate}[(i)]
+    \item If $x \in S$ and $y \in S$ then one and only one of the statements 
+    \begin{equation*}
+    x < y,\quad x = y,\quad y < x  
+    \end{equation*}
+    is true.
+    \item If $x,y,z \in S$, if $x<y$ and $y<x$, then $x<z$.
+  \end{enumerate}
+  The statement ``$x < y$'' may be read as ``$x$ is less than $y$'' or ``$x$ is smaller than $y$'' or ``$x$ precede $y$''.\\
+    \indent It is often convenient to write $y > x$ in place of $x < y$.\\
+    \indent The notation $x \leq y$ indicates that $x < y$ or $x = y$, without specifying which of these is to hold. In other words,
+    $x \leq y$ is the negation of $x>y$
+\end{definition}
+
+\begin{definition}
+  An \emph{ordered set} is a set $S$ in which an order is defined. For example, $\mathbb{Q}$ is an ordered set if 
+  $r<s$ is defined to mean that $s-r$ is a positive rational number.
+\end{definition}
+
+
+\section*{Fields}
+This is an example of an unnumbered first-level heading.
+\section*{The Real Field}
+This is an example of an unnumbered first-level heading.
+\section*{The Extended Real Number System}
+This is an example of an unnumbered first-level heading.
+\section*{The Complex Field}
+This is an example of an unnumbered first-level heading.
+\section*{Euclidean Spaces}
+This is an example of an unnumbered first-level heading.
+\section*{Appendix}
+This is an example of an unnumbered first-level heading.
+\section*{Exercises}
+\begin{xca}
+  This is an example of the \texttt{xca} environment. This environment is
+  used for exercises which occur within a section.
+  \end{xca}
+
+
+
+
+
+  \section{Some more list types}
+This is an example of a bulleted list.
+
+\begin{itemize}
+\item $\mathcal{J}_g$ of dimension $3g-3$;
+\item $\mathcal{E}^2_g=\{$Pryms of double covers of $C=\openbox$ with
+normalization of $C$ hyperelliptic of genus $g-1\}$ of dimension $2g$;
+\item $\mathcal{E}^2_{1,g-1}=\{$Pryms of double covers of
+$C=\openbox^H_{P^1}$ with $H$ hyperelliptic of genus $g-2\}$ of
+dimension $2g-1$;
+\item $\mathcal{P}^2_{t,g-t}$ for $2\le t\le g/2=\{$Pryms of double
+covers of $C=\openbox^{C'}_{C''}$ with $g(C')=t-1$ and $g(C'')=g-t-1\}$
+of dimension $3g-4$.
+\end{itemize}
+
+
+  This is an example of a `description' list.
+
+\begin{description}
+\item[Zero case] $\rho(\Phi) = \{0\}$.
+
+\item[Rational case] $\rho(\Phi) \ne \{0\}$ and $\rho(\Phi)$ is
+contained in a line through $0$ with rational slope.
+
+\item[Irrational case] $\rho(\Phi) \ne \{0\}$ and $\rho(\Phi)$ is
+contained in a line through $0$ with irrational slope.
+\end{description}
+% \specialsection*{This is a Special Section Head}
+% This is an example of a special section head%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnote{Here is an example of a footnote. Notice that this footnote
+text is running on so that it can stand as an example of how a footnote
+with separate paragraphs should be written.
+\par
+And here is the beginning of the second paragraph.}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+.
+
+% \section{This is a numbered first-level section head}
+% This is an example of a numbered first-level heading.
+
+% \subsection{This is a numbered second-level section head}
+% This is an example of a numbered second-level heading.
+
+% \subsection*{This is an unnumbered second-level section head}
+% This is an example of an unnumbered second-level heading.
+
+% \subsubsection{This is a numbered third-level section head}
+% This is an example of a numbered third-level heading.
+
+% \subsubsection*{This is an unnumbered third-level section head}
+% This is an example of an unnumbered third-level heading.
+
+\begin{lemma}
+Let $f, g\in  A(X)$ and let $E$, $F$ be cozero sets in $X$.
+\begin{enumerate}
+\item If $f$ is $E$-regular and $F\subseteq E$, then $f$ is $F$-regular.
+
+\item If $f$ is $E$-regular and $F$-regular, then $f$ is $E\cup
+F$-regular.
+
+\item If $f(x)\ge c>0$ for all $x\in E$, then $f$ is $E$-regular.
+
+\end{enumerate}
+\end{lemma}
+
+The following is an example of a proof.
+
+\begin{proof} Set $j(\nu)=\max(I\backslash a(\nu))-1$. Then we have
+\[
+\sum_{i\notin a(\nu)}t_i\sim t_{j(\nu)+1}
+  =\prod^{j(\nu)}_{j=0}(t_{j+1}/t_j).
+\]
+Hence we have
+\begin{equation}
+\begin{split}
+\prod_\nu\biggl(\sum_{i\notin
+  a(\nu)}t_i\biggr)^{\abs{a(\nu-1)}-\abs{a(\nu)}}
+&\sim\prod_\nu\prod^{j(\nu)}_{j=0}
+  (t_{j+1}/t_j)^{\abs{a(\nu-1)}-\abs{a(\nu)}}\\
+&=\prod_{j\ge 0}(t_{j+1}/t_j)^{
+  \sum_{j(\nu)\ge j}(\abs{a(\nu-1)}-\abs{a(\nu)})}.
+\end{split}
+\end{equation}
+By definition, we have $a(\nu(j))\supset c(j)$. Hence, $\abs{c(j)}=n-j$
+implies (5.4). If $c(j)\notin a$, $a(\nu(j))c(j)$ and hence
+we have (5.5).
+\end{proof}
+
+\begin{quotation}
+This is an example of an `extract'. The magnetization $M_0$ of the Ising
+model is related to the local state probability $P(a):M_0=P(1)-P(-1)$.
+The equivalences are shown in Table~\ref{eqtable}.
+\end{quotation}
+
+\begin{table}[ht]
+\caption{}\label{eqtable}
+\renewcommand\arraystretch{1.5}
+\noindent\[
+\begin{array}{|c|c|c|}
+\hline
+&{-\infty}&{+\infty}\\
+\hline
+{f_+(x,k)}&e^{\sqrt{-1}kx}+s_{12}(k)e^{-\sqrt{-1}kx}&s_{11}(k)e^
+{\sqrt{-1}kx}\\
+\hline
+{f_-(x,k)}&s_{22}(k)e^{-\sqrt{-1}kx}&e^{-\sqrt{-1}kx}+s_{21}(k)e^{\sqrt
+{-1}kx}\\
+\hline
+\end{array}
+\]
+\end{table}
+
+\begin{definition}
+This is an example of a `definition' element.
+For $f\in A(X)$, we define
+\begin{equation}
+\mathcal{Z} (f)=\{E\in Z[X]: \text{$f$ is $E^c$-regular}\}.
+\end{equation}
+\end{definition}
+
+\begin{remark}
+This is an example of a `remark' element.
+For $f\in A(X)$, we define
+\begin{equation}
+\mathcal{Z} (f)=\{E\in Z[X]: \text{$f$ is $E^c$-regular}\}.
+\end{equation}
+\end{remark}
+
+\begin{example}
+This is an example of an `example' element.
+For $f\in A(X)$, we define
+\begin{equation}
+\mathcal{Z} (f)=\{E\in Z[X]: \text{$f$ is $E^c$-regular}\}.
+\end{equation}
+\end{example}
+
+% \begin{xca}
+% This is an example of the \texttt{xca} environment. This environment is
+% used for exercises which occur within a section.
+% \end{xca}
+
+Some extra text before the \texttt{xcb} head. The \texttt{xcb} environment
+is used for exercises that occur at the end of a chapter.  Here it contains
+an example of a numbered list.
+
+Here is an example of a cite. See \cite{Aoki}. \cite{Ao}
+
+\begin{theorem}
+This is an example of a theorem.
+\end{theorem}
+
+\begin{theorem}[Marcus Theorem]
+This is an example of a theorem with a parenthetical note in the
+heading.
+\end{theorem}
+
+\begin{figure}[tb]
+\blankbox{.6\columnwidth}{5pc}
+\caption{This is an example of a figure caption with text.}
+\label{firstfig}
+\end{figure}
+
+\begin{figure}[tb]
+\blankbox{.75\columnwidth}{3pc}
+\caption{}\label{otherfig}
+\end{figure}
+
+
+
+
+
+\begin{xcb}{Exercises}
+  \noindent Unless the contrary is explicitly stated, all numbers that are mentioned in these exercises are understood to be real.
+  \begin{enumerate}
+    \item  If $r$ is rational ($r \notin 0$) and $x$ is irrational, prove that $r + x$ and $rx$ are irrational.
+    \item Prove that there is no rational number whose square is $12$.
+    \item Prove Proposition \ref{some section}.
+    \item  Let $E$ be a nonempty subset of an ordered set; suppose $\alpha$ is a lower bound of $E$ and $\beta$ 
+    is an upper bound of $E$. Prove that $\alpha \leq \beta$.
+    \item Let $A$ be a nonempty set of real numbers which is bounded below. Let $-A$ be the set of all numbers 
+    $-x$, where $x \in A$. Prove that
+    \begin{equation*}
+      \inf A = -\sup (-A)
+    \end{equation*}
+    \item Fix $b>1$,
+    \begin{enumerate}
+      \item If $m,n,p,q$ are integers, $n>0,q>0,$ and $r=m/n=p/q$, prove that
+      \begin{equation*}
+        (b^m)^{l/n} =(b^p)^{l/q}.
+      \end{equation*}
+      Hence it makes sense to define $b^r = (b^m)^{1/n}$·
+      \item Prove that $b^{r+s}= b^rb^s$ if $r$ and $s$ are rational.
+      \item If $x$ is real, define $B(x)$ to be the set of all numbers $b^t$, where $t$ is rational and $t \leq x$. Prove that
+      \begin{equation*}
+        b^r = \sup B(r)
+      \end{equation*}
+      when $r$ is rational. Hence it makes sense to define
+      \begin{equation*}
+        b^x = \sup B(x)
+      \end{equation*}
+      for every real $x$.
+      \item Prove that $b^{x+y} = b^xb^y$ for all real $x$ and $y$.
+    \end{enumerate}
+    \item satisfied
+    \item Prove that no order can be defined in the complex field that turns it into an ordered field. Hint: $-1$ is a square.
+    \item  Suppose $z=a+bi$, $w=c+di$. Define $z<w$ if $a < c$, and also if $a = c$ but $b < d$. Prove that this turns the set of all 
+    complex numbers into an ordered set. (This type of order relation is ca11ed a \emph{dictionary order}, or \emph{lexicographic order}, for 
+    obvious reasons.) Does this ordered set have the least-upper-bound property?
+    \item Suppose $z=a+bi$, $w=u+vi$, and 
+    \begin{equation*}
+      a = \biggl(\frac{\left|w\right|+u}{2}\biggr)^{\nicefrac{1}{2}}, \qquad b = \biggl(\frac{\left|w\right|-u}{2}\biggr)^{\nicefrac{1}{2}}.
+    \end{equation*}
+    Prive that $z^2=w$ if $v\geq 0$ and that $(\overline{z})^2=w$ if $v\leq 0$. Conclude that every complex number (with one exception!) has two
+    complex square roots.
+    \item If $z$ is a complex number, prove that there exist an $r \geq 0$ and a complex number $w$ with $\left| w \right| = 1$ such that $z=rw$.
+    Are $w$ and $r$ always uniquely determined by $z$?
+    \item if $z_1,\cdots,z_n$ are complex, prove that
+    \begin{equation*}
+      \left|z_1+z_2+\cdots+z_n\right|\leq \left|z_1\right|+\left|z_2\right|+\cdots+\left|z_n\right|.
+    \end{equation*}
+    \item If $x,y$ are complex, prove that 
+    \begin{equation*}
+      \left|\left|x\right|-\left|y\right|\right|\leq \left|x-y\right|.
+    \end{equation*}
+    \item If $z$ is a complex number such that $\left|z\right| = 1$, that is, such that $z\overline{z} =1$, compute
+    \begin{equation*}
+      \left|1+z\right|^2+\left|1-z\right|^2.
+    \end{equation*}
+    \item Under what conditions does equality hold in the Schwarz inequality?
+    \item Suppose $k \geq 3$, $\boldsymbol{x},\boldsymbol{y} \in \mathbb{R}^k$, $\left|x-y\right|=d>0$, and $r>0$. Prove:
+    \begin{enumerate}
+      \item If $2r > d$, there are infinitely many $\boldsymbol{z} \in \mathbb{R}^k$ such that
+      \begin{equation*}
+        \left|\boldsymbol{z}-\boldsymbol{x}\right|=\left|\boldsymbol{z}-\boldsymbol{y}\right|=r.
+      \end{equation*}
+      \item If $2r=d$, there is exactly one such $\boldsymbol{z}$.
+      \item If $2r<d$, there is no such $\boldsymbol{z}$.\\
+      How must these statements be modified if $k$ is $2$ or $1$?
+    \end{enumerate}
+    \item Prove that
+    \begin{equation*}
+      \left|\boldsymbol{x}+\boldsymbol{y}\right|^2+\left|\boldsymbol{x}-\boldsymbol{y}\right|^2=2\left|\boldsymbol{x}\right|^2+2\left|\boldsymbol{y}\right|^2
+    \end{equation*}
+    if $\boldsymbol{x}\in \mathbb{R}^k$ and $\boldsymbol{y}\in \mathbb{R}^k$. Interpret this geometrically, as a statement about parallelograms. 
+    \item If $k \geq 2$ and $\boldsymbol{x} \in \mathbb{R}^k$, prove that there exists $\boldsymbol{y} \in \mathbb{R}^k$ such that $\boldsymbol{y} \neq \boldsymbol{0}$
+    but $\boldsymbol{x} \cdot \boldsymbol{y}=0$. Is this also true if $k=1$?
+    \item Supposea $\boldsymbol{a} \in \mathbb{R}^k,\boldsymbol{b} \in \mathbb{R}^k$. Find $\boldsymbol{c} \in \mathbb{R}^k$ and $r> 0$ such 
+    that 
+    \begin{equation*}
+      \left|\boldsymbol{x}-\boldsymbol{a}\right|=2\left|\boldsymbol{x}-\boldsymbol{b}\right|
+    \end{equation*}
+    if and only if $\left|\boldsymbol{x}-\boldsymbol{c}\right|=r$.\\
+    (\emph{Solution}: $3\boldsymbol{c}=4\boldsymbol{b}-\boldsymbol{a},3r=2\left|\boldsymbol{b}-\boldsymbol{a}\right|)$
+    \item With reference to the Appendix, suppose that property \ref{some property} were omitted from the definition of a cut. 
+    Keep the same definitions of order and addition. Show that the resulting ordered set has the least-upper-bound property, 
+    that addition satisfies axioms \ref{first axiom} to \ref{end axiom} (with a slightly different zero-element!) but that \ref{some axiom} fails.
+  \end{enumerate}
+\end{xcb}
+
+
+\ref{eq:test}
+
+
+\endinput
+
+%-----------------------------------------------------------------------
+% End of chapter_01.tex
+%-----------------------------------------------------------------------

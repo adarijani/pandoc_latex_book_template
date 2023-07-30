@@ -1,0 +1,14 @@
+\contentsline {chapter}{\tocchapter {Chapter}{}{Preface}}{vii}{}%
+\contentsline {part}{Part\ 1. \enspace \noindent This is a Part Title Sample}{1}{}%
+\contentsline {chapter}{\tocchapter {Chapter}{1}{AMS Monograph Series Sample}}{3}{}%
+\contentsline {section}{\tocsection {}{}{This is an unnumbered first-level section head}}{3}{}%
+\contentsline {section}{\tocsection {}{}{This is a Special Section Head}}{3}{}%
+\contentsline {section}{\tocsection {}{1.1}{This is a numbered first-level section head}}{3}{}%
+\contentsline {subsection}{\tocsubsection {}{1.1.1}{This is a numbered second-level section head}}{3}{}%
+\contentsline {subsection}{\tocsubsection {}{}{This is an unnumbered second-level section head}}{3}{}%
+\contentsline {subsubsection}{\tocsubsubsection {}{1.1.1.1}{This is a numbered third-level section head}}{3}{}%
+\contentsline {subsubsection}{\tocsubsubsection {}{}{This is an unnumbered third-level section head}}{3}{}%
+\contentsline {section}{\tocsection {}{}{Exercises}}{4}{}%
+\contentsline {section}{\tocsection {}{1.2}{Some more list types}}{5}{}%
+\contentsline {chapter}{\tocchapter {\chaptername }{}{Bibliography}}{7}{}%
+\contentsline {chapter}{\tocchapter {\chaptername }{}{Index}}{9}{}%

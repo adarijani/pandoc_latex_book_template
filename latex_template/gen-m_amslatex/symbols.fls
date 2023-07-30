@@ -1,0 +1,6 @@
+PWD /Users/rknot/repos/baby_rudin_latex/gen-m_amslatex
+INPUT /usr/local/texlive/2023/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/rknot/repos/baby_rudin_latex/gen-m_amslatex/symbols.tex
+OUTPUT symbols.log
