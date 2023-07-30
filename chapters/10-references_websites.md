@@ -22,3 +22,11 @@
 - Terminal Text Editor: [vim](https://www.vim.org/) GUI Text Editor: [Visual Studio Code](https://code.visualstudio.com/)
 - Terminal Multiplexer: [tmux](https://github.com/tmux)
 - Modern Linux Tools: [Modern Linux](https://github.com/ibraheemdev/modern-unix)
+
+
+## Math Blogs
+
+
+* [https://cs.stanford.edu/~knuth/](https://cs.stanford.edu/~knuth/)
+* [https://terrytao.wordpress.com/](https://terrytao.wordpress.com/)
+* [https://marktomforde.com/academic/academic.html](https://marktomforde.com/academic/academic.html)
